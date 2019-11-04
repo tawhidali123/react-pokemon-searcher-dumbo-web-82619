@@ -13,6 +13,11 @@ class PokemonForm extends React.Component {
     }
   }
 
+  handleSubmit = () => {
+    console.log("submitted");
+  }
+
+
   render() {
     return (
       <div>
